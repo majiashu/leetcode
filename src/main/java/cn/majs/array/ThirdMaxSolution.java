@@ -59,7 +59,7 @@ public class ThirdMaxSolution {
     }
 
     /**
-     * 维护三个有序set  Treeset  set.first()是第一个，最小的数，set.last是最后一个，最大的
+     * 维护一个三个元素的有序set  Treeset  set.first()是第一个，最小的数，set.last是最后一个，最大的
      * @param nums
      * @return
      */

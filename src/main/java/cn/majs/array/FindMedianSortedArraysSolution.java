@@ -40,7 +40,7 @@ public class FindMedianSortedArraysSolution {
         int right = m;
 
         while (left < right) {
-            int i = left + (right - left) / 2;
+            int i = left + (right - left + 1) / 2;
             int j = totalLeft - i;
             if (nums1[i - 1] > nums2[j]) {
                 right = i - 1;
