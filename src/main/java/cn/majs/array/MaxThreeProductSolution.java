@@ -63,7 +63,6 @@ public class MaxThreeProductSolution {
 
         int min1 = Integer.MAX_VALUE;
         int min2 = Integer.MAX_VALUE;
-
         int max1 = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;
         int max3 = Integer.MIN_VALUE;
