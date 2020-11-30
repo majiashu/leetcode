@@ -8,10 +8,16 @@ package cn.majs.recursion;
  */
 public class StepProblem {
 
+    public static void main(String[] args) {
+        System.out.println("方法一：" + f(10));
+        System.out.println("方法二：" + f2(10));
+    }
+
     /**
      * 首先想到递归的方法
      * 优点：好理解
      * 缺点：算法复杂度高，有很多冗余计算
+     *
      * @param n
      * @return
      */
@@ -25,21 +31,21 @@ public class StepProblem {
      * 迭代
      * 优点：效率高
      * 缺点：可读性差
+     *
      * @param n
      * @return
      */
-    public static int f2(int n){
-        if(n<=2) return n;
+    public static int f2(int n) {
+        if (n <= 2) return n;
         int first = 1, second = 2;
         int third = 3;
-        for (int i=3; i<=n; i++){
+        for (int i = 3; i <= n; i++) {
             third = first + second;
             first = second;
             second = third;
         }
         return third;
     }
-
 
 
 }
