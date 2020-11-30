@@ -9,7 +9,7 @@ package cn.majs.recursion;
 public class StepProblem {
 
     /**
-     * 首相想到递归的方法
+     * 首先想到递归的方法
      * 优点：好理解
      * 缺点：算法复杂度高，有很多冗余计算
      * @param n
