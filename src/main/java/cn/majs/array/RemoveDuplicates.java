@@ -53,6 +53,4 @@ public class RemoveDuplicates {
         }
         return i + 1;
     }
-
-
 }
